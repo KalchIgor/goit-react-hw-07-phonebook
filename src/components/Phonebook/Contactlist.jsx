@@ -1,8 +1,9 @@
+import css from "./Phonebook.module.css";
 import { getFilter } from "redux/filter/filter-selectors";
 import { getContacts} from "redux/contacts/contacts-selectors";
 import { useDispatch, useSelector } from "react-redux";
-import { removeContact } from "../../redux/contacts/contacts-operation"
-import css from "./Phonebook.module.css";
+import { removeContact } from "../../redux/contacts/contacts-operation";
+
 
 
 export default function Contactlist() {
